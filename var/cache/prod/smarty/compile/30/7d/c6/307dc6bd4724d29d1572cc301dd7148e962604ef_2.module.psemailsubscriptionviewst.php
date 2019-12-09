@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-12-09 13:54:17
+/* Smarty version 3.1.33, created on 2019-12-09 18:28:48
   from 'module:psemailsubscriptionviewst' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dee43f9362a61_23530716',
+  'unifunc' => 'content_5dee845059de51_07008227',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:psemailsubscriptionviewst',
-      1 => 1575895370,
+      1 => 1575912383,
       2 => 'module',
     ),
   ),
@@ -20,65 +20,35 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dee43f9362a61_23530716 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dee845059de51_07008227 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
-  <div class="row">
-    <p id="block-newsletter-label" class="col-md-5 col-xs-12"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Get our latest news and special sales','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
-</p>
-    <div class="col-md-7 col-xs-12">
-      <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['index'], ENT_QUOTES, 'UTF-8');?>
-#footer" method="post">
-        <div class="row">
-          <div class="col-xs-12">
-            <input
-              class="btn btn-primary float-xs-right hidden-xs-down"
-              name="submitNewsletter"
-              type="submit"
-              value="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Subscribe','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
+<div class="ps-emailsubscription-block">
+    <form action="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('entity'=>'index','params'=>array('fc'=>'module','module'=>'iqitemailsubscriptionconf','controller'=>'subscription')),$_smarty_tpl ) );?>
 "
-            >
-            <input
-              class="btn btn-primary float-xs-right hidden-sm-up"
-              name="submitNewsletter"
-              type="submit"
-              value="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'OK','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
+          method="post">
+                <div class="input-group newsletter-input-group ">
+                    <input
+                            name="email"
+                            type="email"
+                            value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
 "
-            >
-            <div class="input-wrapper">
-              <input
-                name="email"
-                type="email"
-                value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
+                            class="form-control input-subscription"
+                            placeholder="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Your email address','d'=>'Shop.Forms.Labels'),$_smarty_tpl ) );?>
 "
-                placeholder="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Your email address','d'=>'Shop.Forms.Labels'),$_smarty_tpl ) );?>
-"
-                aria-labelledby="block-newsletter-label"
-              >
-            </div>
-            <input type="hidden" name="action" value="0">
-            <div class="clearfix"></div>
-          </div>
-          <div class="col-xs-12">
-              <?php if ($_smarty_tpl->tpl_vars['conditions']->value) {?>
-                <p><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['conditions']->value, ENT_QUOTES, 'UTF-8');?>
-</p>
-              <?php }?>
-              <?php if ($_smarty_tpl->tpl_vars['msg']->value) {?>
-                <p class="alert <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
-                  <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'UTF-8');?>
-
-                </p>
-              <?php }?>
-              <?php if (isset($_smarty_tpl->tpl_vars['id_module']->value)) {?>
-                <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayGDPRConsent','id_module'=>$_smarty_tpl->tpl_vars['id_module']->value),$_smarty_tpl ) );?>
-
-              <?php }?>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
+                    >
+                    <button
+                            class="btn btn-primary btn-subscribe btn-iconic"
+                            name="submitNewsletter"
+                            type="submit"
+                    ><i class="fa fa-envelope-o" aria-hidden="true"></i></button>
+                </div>
+        <?php if (isset($_smarty_tpl->tpl_vars['id_module']->value)) {?>
+            <div class="mt-2 text-muted"> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayGDPRConsent','id_module'=>$_smarty_tpl->tpl_vars['id_module']->value),$_smarty_tpl ) );?>
 </div>
+        <?php }?>
+                <input type="hidden" name="action" value="0">
+    </form>
+</div>
+
 <?php }
 }
