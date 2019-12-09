@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Puntos de dolor o Pain Points ¿por qué resolver problemas de tus clientes aumenta tus ventas?</title>
+    <link>https://www.prestashop.com/es/blog/pain-points-puntos-de-dolor</link>
+    <description>¿Sabes cuáles son los puntos de dolor de tu cliente potencial?</description>
+     <pubDate>Mon, 02 Dec 2019 07:58:43 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/pain-points-puntos-de-dolor</guid>
+  </item>
+  <item>
+    <title>¿Cómo evitar que los usuarios abandonen el carrito de la compra?</title>
+    <link>https://www.prestashop.com/es/blog/evitar-abandonos-carrito</link>
+    <description>Si tienes una tienda online habrás visto en más de una ocasión cómo algunos de tus clientes se interesan por uno de tus productos, pero durante el proceso de compra se arrepienten de continuar con </description>
+     <pubDate>Sun, 01 Dec 2019 19:55:56 +0100</pubDate>
+ <dc:creator>Daniel Urda</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/evitar-abandonos-carrito</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Product Bundling en eCommerce y qué ventajas tiene?</title>
+    <link>https://www.prestashop.com/es/blog/product-bundling</link>
+    <description>¿Has comprado alguna vez en una tienda física u online y te has encontrado ofertas paquetizadas a un precio bastante competitivo?</description>
+     <pubDate>Fri, 29 Nov 2019 19:23:28 +0100</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/product-bundling</guid>
+  </item>
+  <item>
+    <title>¿Cómo convertir tus opiniones negativas en una fortaleza para tu reputación?</title>
+    <link>https://www.prestashop.com/es/blog/opiniones-negativas</link>
+    <description>Cada vez es más recurrente ver opiniones de los clientes en las tiendas online, que se han convertido en una fuente tranquilizadora y fiable de información para los consumidores, q</description>
+     <pubDate>Thu, 28 Nov 2019 13:23:32 +0100</pubDate>
+ <dc:creator>Ingrid Astier ES</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/opiniones-negativas</guid>
+  </item>
+  <item>
+    <title>La internacionalización de un eCommerce: ¿cómo empezar a vender en otros países? (Webinar)</title>
+    <link>https://www.prestashop.com/es/blog/webinar-internacionalizacion-ecommerce</link>
+    <description>La internacionalización de un eCommerce: ¿cómo empezar a vender en otros países?
+12 de diciembre a las 16 horas (de España)
+</description>
+     <pubDate>Wed, 27 Nov 2019 15:40:22 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/webinar-internacionalizacion-ecommerce</guid>
+  </item>
+  <item>
+    <title>¿Cómo gestionar el enlazado interno para mejorar el SEO de tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/enlazado-interno-seo</link>
+    <description>¿Cómo gestionas el enlazado interno de la web de tu tienda online?</description>
+     <pubDate>Tue, 26 Nov 2019 06:41:21 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/enlazado-interno-seo</guid>
+  </item>
+  <item>
+    <title>Lifetime Value (LTV) ¿qué es y por qué es clave en el sector eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/lifetime-value</link>
+    <description>¿Conoces las ventajas del lifetime value dentro del tiempo en que un usuario es cliente de nuestro negocio?</description>
+     <pubDate>Fri, 22 Nov 2019 10:07:38 +0100</pubDate>
+ <dc:creator>Guillermo Morera Balaguer</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/lifetime-value</guid>
+  </item>
+  <item>
+    <title>Del eCommerce al mCommerce: ¿cómo vender más en el móvil? (Webinar)</title>
+    <link>https://www.prestashop.com/es/blog/webinar-del-ecommerce-a-mcommerce</link>
+    <description>Del eCommerce al mCommerce: ¿cómo vender más en móvil?
+21 de noviembre a las 16 horas (de España)
+</description>
+     <pubDate>Thu, 21 Nov 2019 13:10:16 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/webinar-del-ecommerce-a-mcommerce</guid>
+  </item>
+  <item>
+    <title>¿Cómo hacer una campaña de Facebook e Instagram Ads para vender más en tu tienda? (Webinar)</title>
+    <link>https://www.prestashop.com/es/blog/webinar-como-hacer-campanas-facebook-ads</link>
+    <description>¿Cómo hacer una campaña de Facebook Ads e Instagram Ads para vender más en tu tienda?
+28 de noviembre a las 16 horas (de España)
+</description>
+     <pubDate>Thu, 21 Nov 2019 11:46:58 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/webinar-como-hacer-campanas-facebook-ads</guid>
+  </item>
+  <item>
+    <title>¿Qué es el “http error 500” y cómo solucionarlo en mi tienda PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/error-500</link>
+    <description>¿Te han notificado alguna vez los usuarios que, navegando por tu web, la pantalla de pronto se les quedaba en blanco, apareciéndoles una anomalía llamada &quot;http error 500&quot;?</description>
+     <pubDate>Wed, 20 Nov 2019 07:43:19 +0100</pubDate>
+ <dc:creator>Eva Lacalle</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/error-500</guid>
+  </item>
+  </channel>
+</rss>
